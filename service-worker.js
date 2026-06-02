@@ -1,4 +1,4 @@
-const CACHE_NAME = "wts-diet-tracker-pkg132-github-ready-smoke-checked";
+const CACHE_NAME = "wts-diet-tracker-pkg133-food-readability-icon-fix";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
