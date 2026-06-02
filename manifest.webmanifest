@@ -1,0 +1,19 @@
+{
+  "name": "WTS 飲食體重管理",
+  "short_name": "WTS飲食",
+  "description": "飲食、飲水、運動、體重與控糖紀錄系統。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7fbfb",
+  "theme_color": "#0f766e",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
