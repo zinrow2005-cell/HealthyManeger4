@@ -1,15 +1,17 @@
-# WTS 飲食體重管理系統｜PKG133_FOOD_READABILITY_ICON_FIX
+# WTS 飲食體重管理系統｜PKG140_EXERCISE_SMART_GOAL_COMBOS_WEEKLY_PLAN
 
-## GitHub Pages 上傳方式
-1. 將本 ZIP 解壓縮。
-2. 把 `index.html`、`.nojekyll`、`manifest.webmanifest`、`service-worker.js`、`icon.svg` 放到 GitHub repository 根目錄。
-3. GitHub repository → Settings → Pages → Deploy from branch → main / root。
-4. 開啟 GitHub Pages 網址後，第一次建議重新整理一次。
+這一包可直接上傳 GitHub Pages。
 
-## 本版檢查
-- CSS / JS / 食物資料庫已內嵌在 `index.html`。
-- 已新增家事勞動、工作勞動、豬場工作消耗項目。
-- 已通過 HTML 結構、JSON 食物資料、JS 語法與主要頁面按鈕切換測試。
+## 本包重點
+- 優化「今日建議與本週運動安排」。
+- 新增運動目標選擇器：控糖＋減脂＋恢復、飯後控糖、減脂降體重、術後恢復、保肌力、豬場工作日、忙碌短時間。
+- 新增時間長短選項：短版、標準、加強、分散三餐後。
+- 新增腳況模式：依腳況自動、保守坐姿、可站立低衝擊。
+- 新增多組一鍵加入運動組合，依你的血糖控制、減重、腳部術後恢復與豬場工作情境設計。
+- 更新 WTS_APP_VERSION 與 Service Worker cache，避免手機 PWA 讀到舊版。
 
-
-PKG133 更新：修正食物頁餐點明細文字過淡、選中餐別明細看不清楚，並更新 PWA 飲食圖示。
+## 上傳方式
+1. 解壓縮本 ZIP。
+2. 將所有檔案上傳到 GitHub repository 根目錄。
+3. 保留 `.nojekyll`。
+4. 手機若已安裝 PWA，更新後建議重新整理一次或重新加入主畫面。

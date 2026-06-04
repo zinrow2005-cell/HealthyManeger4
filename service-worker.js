@@ -1,4 +1,4 @@
-const CACHE_NAME = "wts-diet-tracker-pkg133-food-readability-icon-fix";
+const CACHE_NAME = "wts-diet-tracker-pkg140-exercise-smart-goal-combos-weekly-plan";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
